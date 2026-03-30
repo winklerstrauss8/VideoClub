@@ -1,0 +1,47 @@
+# Fichiers compilés Java
+*.class
+
+# Répertoires de compilation
+bin/
+build/
+target/
+
+# Fichiers temporaires
+*.tmp
+*.temp
+
+# Logs
+*.log
+
+# Fichiers spécifiques aux IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# Fichiers système
+Thumbs.db
+.DS_Store
+
+# Archives
+*.jar
+*.war
+*.ear
+
+# Fichiers de configuration locaux
+config.properties
+database.properties
+
+# Dossiers de bibliothèques externes (si non versionnés)
+lib/
+
+# Fichiers de sauvegarde
+*~
+*.bak
+*.swp
+*.swo
+
+# Fichiers générés par l'OS
+Desktop.ini
