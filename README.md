@@ -19,22 +19,6 @@ VideoClub est une application de bureau développée en Java pour la gestion com
 - Java Development Kit (JDK) 8 ou supérieur installé sur le système.
 - Une base de données compatible (par exemple, MySQL ou SQLite) pour le stockage des données. Le schéma de base de données est fourni dans `sql/schema.sql`.
 
-## Installation
-
-1. **Cloner ou télécharger le projet** :
-   - Placez le dossier du projet dans un répertoire de votre choix.
-
-2. **Configurer la base de données** :
-   - Exécutez le script SQL `sql/schema.sql` dans votre base de données pour créer les tables nécessaires.
-   - Mettez à jour les informations de connexion à la base de données dans `src/dao/DatabaseConnection.java` si nécessaire.
-
-3. **Compiler l'application** :
-   - Ouvrez une invite de commandes dans le répertoire racine du projet.
-   - Exécutez le script `compile.bat` pour compiler les fichiers sources Java.
-
-4. **Exécuter l'application** :
-   - Après compilation, exécutez `run.bat` pour lancer l'application.
-
 ## Utilisation
 
 1. **Connexion** : Lancez l'application et connectez-vous avec les identifiants appropriés via le panneau de connexion.
